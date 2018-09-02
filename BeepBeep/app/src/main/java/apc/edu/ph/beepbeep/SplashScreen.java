@@ -1,4 +1,4 @@
-package apc.edu.ph.beepbeep;
+package apc.edu.ph.beepbeepbeep;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,7 +22,7 @@ public class SplashScreen extends AppCompatActivity {
                 // This will destroy SplashScreenActivity
                 SplashScreen.this.finish();
             }
-        }, 2500);
+        }, 5000);
 
     }
 }

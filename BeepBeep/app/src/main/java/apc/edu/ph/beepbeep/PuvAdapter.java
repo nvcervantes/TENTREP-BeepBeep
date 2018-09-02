@@ -65,12 +65,14 @@ public class PuvAdapter extends RecyclerView.Adapter<PuvAdapter.MyViewHolder> {
         final Puv puv = puvList.get(position);
         holder.platenumber.setText(puv.getPlatenumber());
 
-        if (puv.getCategory().equals("MRT")) {
-            holder.bg.setImageDrawable(context.getDrawable(R.drawable.mrt));
-        } else if (puv.getCategory().equals("LRT")) {
+        if (puv.getCategory().equals("Balance")) {
             holder.bg.setImageDrawable(context.getDrawable(R.drawable.train));
-        } else if (puv.getCategory().equals("P2P Bus")) {
-        holder.bg.setImageDrawable(context.getDrawable(R.drawable.busbus));
+        } else if (puv.getCategory().equals("Purchase Transactions")) {
+            holder.bg.setImageDrawable(context.getDrawable(R.drawable.train));
+        } else if (puv.getCategory().equals("Railway Maps")) {
+        holder.bg.setImageDrawable(context.getDrawable(R.drawable.train));
+        } else if (puv.getCategory().equals("Beep Reloading")) {
+            holder.bg.setImageDrawable(context.getDrawable(R.drawable.train));
         } else {
             holder.bg.setBackgroundColor(Color.parseColor("#000000"));
         }

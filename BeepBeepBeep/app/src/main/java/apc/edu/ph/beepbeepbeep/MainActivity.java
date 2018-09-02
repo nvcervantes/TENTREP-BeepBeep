@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(MainActivity.this, PuvListActivity.class));
     }
     public void stations(View v) {
-        startActivity(new Intent(MainActivity.this, PuvListActivity.class));
+        startActivity(new Intent(MainActivity.this, Stations.class));
     }
     public void reload(View v) {
-        startActivity(new Intent(MainActivity.this, PuvListActivity.class));
+        startActivity(new Intent(MainActivity.this, Reloading.class));
     }
 }
 

@@ -57,8 +57,8 @@ public class PuvActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
         adapter.addFragment(new PuvInfoFragment(), "Info");
-        //adapter.addFragment(new PuvQuestionsFragment(), "Questions");
-        //adapter.addFragment(new PuvPollsFragment(), "Polls");
+        adapter.addFragment(new PuvQuestionsFragment(), "Questions");
+        adapter.addFragment(new PuvPollsFragment(), "Polls");
         viewPager.setAdapter(adapter);
     }
 
@@ -79,12 +79,14 @@ public class PuvActivity extends AppCompatActivity {
                         tabLayout.setupWithViewPager(viewPager);
 
 
-                        if (puv.getCategory().equals("MRT")) {
-                            toolbarImage.setImageDrawable(getDrawable(R.drawable.mrt));
-                        } else if (puv.getCategory().equals("LRT")) {
+                        if (puv.getCategory().equals("Balance")) {
                             toolbarImage.setImageDrawable(getDrawable(R.drawable.train));
-                        } else if (puv.getCategory().equals("P2P Bus")) {
-                            toolbarImage.setImageDrawable(getDrawable(R.drawable.busbus));
+                        } else if (puv.getCategory().equals("Purchase Transactions")) {
+                            toolbarImage.setImageDrawable(getDrawable(R.drawable.train));
+                        } else if (puv.getCategory().equals("Railway Maps")) {
+                            toolbarImage.setImageDrawable(getDrawable(R.drawable.train));
+                        } else if (puv.getCategory().equals("Beep Reloading")) {
+                            toolbarImage.setImageDrawable(getDrawable(R.drawable.train));
                         }
 
 

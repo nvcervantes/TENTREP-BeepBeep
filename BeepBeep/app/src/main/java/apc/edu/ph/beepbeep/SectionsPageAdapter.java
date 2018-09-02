@@ -9,8 +9,7 @@ import java.util.List;
 
 
 
-public class
-SectionsPageAdapter extends FragmentPagerAdapter {
+public class SectionsPageAdapter extends FragmentPagerAdapter {
 
     private final List<Fragment> fragmentList = new ArrayList<>();
     private final List<String> fragmentNameList = new ArrayList<>();

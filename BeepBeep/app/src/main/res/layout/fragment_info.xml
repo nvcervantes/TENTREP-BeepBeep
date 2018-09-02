@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                android:text="Origin - Destination "
+                android:text="Venue"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintLeft_toRightOf="@+id/ic_venue"
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginStart="8dp"
-                android:text="Commuter"
+                android:text="Available Seats"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 app:layout_constraintLeft_toRightOf="@+id/ic_speaker"
@@ -168,7 +168,23 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/stv_agenda" />
-
+            <Button
+                android:id="@+id/stv_reserve"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/secondaryColor"
+                android:text="Reserve Seat"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:onClick="displayToast"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/stv_lang"/>
 
         </android.support.constraint.ConstraintLayout>
     </android.support.v4.widget.NestedScrollView>

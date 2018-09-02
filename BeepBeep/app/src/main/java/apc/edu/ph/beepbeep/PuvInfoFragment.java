@@ -33,7 +33,7 @@ public class PuvInfoFragment extends Fragment {
         venue = (TextView) view.findViewById(R.id.stv_venue);
         availableseats = (TextView) view.findViewById(R.id.stv_speaker);
         remarks = (TextView) view.findViewById(R.id.stv_agenda);
-       // bt_toast = (Button) view.findViewById(R.id.stv_reserve);
+        bt_toast = (Button) view.findViewById(R.id.stv_reserve);
 
 
         puvActivity = (PuvActivity)getActivity();
@@ -44,6 +44,14 @@ public class PuvInfoFragment extends Fragment {
         venue.setText(puv.getVenue());
         availableseats.setText(puv.getAvailableseats());
         remarks.setText(puv.getRemarks());
+
+        bt_toast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                    Toast.makeText(puvActivity, "A seat has been reserved for you!", Toast.LENGTH_SHORT).show();
+                }
+
+        });
 
         return view;
     }
