@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "661192446827",
+    "firebase_url": "https://beepbeepbeep-1c1b8.firebaseio.com",
+    "project_id": "beepbeepbeep-1c1b8",
+    "storage_bucket": "beepbeepbeep-1c1b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661192446827:android:6c9de7edd965973c",
+        "android_client_info": {
+          "package_name": "apc.edu.ph.beepbeepbeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661192446827-c7uo0q2fovn1k7sp5dl612t6tk8jv2rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apc.edu.ph.beepbeepbeep",
+            "certificate_hash": "36e2e1243f5a5705004374b9a36269fdcc8a6ce1"
+          }
+        },
+        {
+          "client_id": "661192446827-2267ejtl8oaih4usf5a7sb0bds21lub3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw9ealSgFh1MtebiT9IG8NT3oIY8wbnUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661192446827-2267ejtl8oaih4usf5a7sb0bds21lub3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
