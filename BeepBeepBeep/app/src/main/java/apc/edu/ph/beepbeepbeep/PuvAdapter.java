@@ -71,6 +71,8 @@ public class PuvAdapter extends RecyclerView.Adapter<PuvAdapter.MyViewHolder> {
             holder.bg.setImageDrawable(context.getDrawable(R.drawable.train));
         } else if (puv.getCategory().equals("P2P Bus")) {
         holder.bg.setImageDrawable(context.getDrawable(R.drawable.busbus));
+        }  else if (puv.getCategory().equals("BGC Bus")) {
+            holder.bg.setImageDrawable(context.getDrawable(R.drawable.bgc));
         } else {
             holder.bg.setBackgroundColor(Color.parseColor("#000000"));
         }

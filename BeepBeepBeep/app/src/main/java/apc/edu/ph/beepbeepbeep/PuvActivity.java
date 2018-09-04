@@ -85,6 +85,8 @@ public class PuvActivity extends AppCompatActivity {
                             toolbarImage.setImageDrawable(getDrawable(R.drawable.train));
                         } else if (puv.getCategory().equals("P2P Bus")) {
                             toolbarImage.setImageDrawable(getDrawable(R.drawable.busbus));
+                        } else if (puv.getCategory().equals("BGC Bus")) {
+                            toolbarImage.setImageDrawable(getDrawable(R.drawable.bgc));
                         }
 
 
